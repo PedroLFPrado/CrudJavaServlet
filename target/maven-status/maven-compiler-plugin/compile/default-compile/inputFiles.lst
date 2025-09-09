@@ -1,0 +1,11 @@
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\dao\ProdutoDAO.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\JakartaRestConfiguration.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\model\Produto.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\resources\JakartaEE11Resource.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\AddCarrinhoServlet.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\ListCarrinhoServlet.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\ProdutoDeleteServlet.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\ProdutoFormServlet.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\ProdutoListServlet.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\ProdutoSaveServlet.java
+C:\Users\pedro\OneDrive\Documentos\NetBeansProjects\CrudProduto\src\main\java\com\mycompany\crudproduto\servlet\RetirarCarrinhoServlet.java

@@ -1,0 +1,11 @@
+com\mycompany\crudproduto\servlet\ProdutoFormServlet.class
+com\mycompany\crudproduto\servlet\ListCarrinhoServlet.class
+com\mycompany\crudproduto\model\Produto.class
+com\mycompany\crudproduto\resources\JakartaEE11Resource.class
+com\mycompany\crudproduto\servlet\RetirarCarrinhoServlet.class
+com\mycompany\crudproduto\JakartaRestConfiguration.class
+com\mycompany\crudproduto\servlet\ProdutoListServlet.class
+com\mycompany\crudproduto\servlet\AddCarrinhoServlet.class
+com\mycompany\crudproduto\dao\ProdutoDAO.class
+com\mycompany\crudproduto\servlet\ProdutoDeleteServlet.class
+com\mycompany\crudproduto\servlet\ProdutoSaveServlet.class
