@@ -1,14 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package com.mycompany.crudproduto.servlet;
-
-/**
- *
- * @author Pedro Lemos / Gustavo Henrique
- */
-
 
 import com.mycompany.crudproduto.model.Produto;
 import jakarta.servlet.*;
@@ -27,8 +17,14 @@ public class RetirarCarrinhoServlet extends HttpServlet {
             HttpSession session = req.getSession();
             List<Produto> carrinho = (List<Produto>) session.getAttribute("carrinho");
             if (carrinho != null) {
-                // remove a primeira ocorrência com esse codigo
-                carrinho.removeIf(p -> p.getCodigo() != null && p.getCodigo().equals(id));
+                // remove apenas a PRIMEIRA ocorrência com esse código
+                for (int i = 0; i < carrinho.size(); i++) {
+                    Produto p = carrinho.get(i);
+                    if (p.getCodigo() != null && p.getCodigo().equals(id)) {
+                        carrinho.remove(i);
+                        break; // sai depois de remover UM item
+                    }
+                }
             }
         }
         resp.sendRedirect(req.getContextPath() + "/carrinho/view");

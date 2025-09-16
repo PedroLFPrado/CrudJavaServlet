@@ -16,20 +16,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Lista de Produtos</title>
+    <link rel="stylesheet" href="<%= ctx %>/css/style.css">
 </head>
+
 <body>
-<h1>Produtos</h1>
-<a href="<%= ctx %>/produto/form">Novo Produto</a>
-&nbsp;|&nbsp;
-<a href="<%= ctx %>/carrinho/view">Ver Carrinho</a>
-<table border="1" cellpadding="8">
-    <tr>
-        <th>Código</th><th>Descrição</th><th>Preço</th><th>Qtde</th><th>Ações</th>
-    </tr>
-    <%
-        if (produtos != null) {
-            for (Produto p : produtos) {
-    %>
+<div class="container">
+    <h1>Produtos</h1>
+    <a href="<%= ctx %>/produto/form" class="btn btn-add">Novo Produto</a>
+    &nbsp;|&nbsp;
+    <a href="<%= ctx %>/carrinho/view">Ver Carrinho</a>
+    
+    <table>
+        <tr>
+            <th>Código</th><th>Descrição</th><th>Preço</th><th>Qtde</th><th>Ações</th>
+        </tr>
+        <% if (produtos != null) { for (Produto p : produtos) { %>
         <tr>
             <td><%= p.getCodigo() %></td>
             <td><%= p.getDescricao() %></td>
@@ -38,21 +39,17 @@
             <td>
                 <form action="<%= ctx %>/carrinho/add" method="post" style="display:inline;">
                     <input type="hidden" name="id" value="<%= p.getCodigo() %>" />
-                    <button type="submit">Adicionar ao Carrinho</button>
+                    <button type="submit" class="btn btn-add">Adicionar</button>
                 </form>
-
-                <a href="<%= ctx %>/produto/form?id=<%= p.getCodigo() %>">Editar</a>
-
+                <a href="<%= ctx %>/produto/form?id=<%= p.getCodigo() %>" class="btn btn-edit">Editar</a>
                 <form action="<%= ctx %>/produto/delete" method="post" style="display:inline;">
                     <input type="hidden" name="id" value="<%= p.getCodigo() %>" />
-                    <button type="submit">Remover</button>
+                    <button type="submit" class="btn btn-delete">Remover</button>
                 </form>
             </td>
         </tr>
-    <%
-            }
-        }
-    %>
-</table>
+        <% } } %>
+    </table>
+</div>
 </body>
 </html>

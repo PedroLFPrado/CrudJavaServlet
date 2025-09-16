@@ -16,16 +16,26 @@
 <head>
     <meta charset="UTF-8">
     <title><%= edit ? "Editar" : "Novo" %> Produto</title>
+    <link rel="stylesheet" href="<%= ctx %>/css/style.css">
 </head>
 <body>
-<h1><%= edit ? "Editar" : "Novo" %> Produto</h1>
-<form action="<%= ctx %>/produto/form" method="post">
-    <input type="hidden" name="codigo" value="<%= edit ? produto.getCodigo() : "" %>" />
-    <label>Descrição: <input name="descricao" value="<%= edit ? produto.getDescricao() : "" %>" required/></label><br/>
-    <label>Preço: <input name="preco" value="<%= edit ? produto.getPreco() : "" %>" required/></label><br/>
-    <label>Quantidade: <input name="qtde" value="<%= edit ? produto.getQtde() : 0 %>" required/></label><br/>
-    <button type="submit">Salvar</button>
-</form>
-<a href="<%= ctx %>/produtos">Voltar</a>
+<div class="container">
+    <h1><%= edit ? "Editar" : "Novo" %> Produto</h1>
+    <form action="<%= ctx %>/produto/form" method="post">
+        <input type="hidden" name="codigo" value="<%= edit ? produto.getCodigo() : "" %>" />
+        <label>Descrição:
+            <input name="descricao" value="<%= edit ? produto.getDescricao() : "" %>" required/>
+        </label>
+        <label>Preço:
+            <input type="number" step="0.01" name="preco" value="<%= edit ? produto.getPreco() : "" %>" required/>
+        </label>
+        <label>Quantidade:
+            <input type="number" name="qtde" value="<%= edit ? produto.getQtde() : 0 %>" required/>
+        </label>
+        <button type="submit" class="btn btn-add">Salvar</button>
+    </form>
+    <a href="<%= ctx %>/produtos">Voltar</a>
+</div>
 </body>
+
 </html>

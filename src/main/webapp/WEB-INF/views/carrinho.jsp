@@ -19,15 +19,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Carrinho</title>
+    <link rel="stylesheet" href="<%= ctx %>/css/style.css">
 </head>
 <body>
-<h1>Carrinho de Compras</h1>
-<a href="<%= ctx %>/produtos">Voltar para Produtos</a>
-<table border="1" cellpadding="8">
-    <tr><th>Código</th><th>Descrição</th><th>Preço</th><th>Ação</th></tr>
-    <%
-        for (Produto p : carrinho) {
-    %>
+<div class="container">
+    <h1>Carrinho de Compras</h1>
+    <a href="<%= ctx %>/produtos">Voltar para Produtos</a>
+    <table>
+        <tr><th>Código</th><th>Descrição</th><th>Preço</th><th>Ação</th></tr>
+        <% for (Produto p : carrinho) { %>
         <tr>
             <td><%= p.getCodigo() %></td>
             <td><%= p.getDescricao() %></td>
@@ -35,15 +35,14 @@
             <td>
                 <form action="<%= ctx %>/carrinho/remove" method="post" style="display:inline;">
                     <input type="hidden" name="id" value="<%= p.getCodigo() %>" />
-                    <button type="submit">Remover</button>
+                    <button type="submit" class="btn btn-delete">Remover</button>
                 </form>
             </td>
         </tr>
-    <%
-        }
-    %>
-</table>
-
-<h3>Total: R$ <%= total %></h3>
+        <% } %>
+    </table>
+    <h3>Total: R$ <%= total %></h3>
+</div>
 </body>
+
 </html>

@@ -1,0 +1,52 @@
+10-Jul-2025 15:04:05.384 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+10-Jul-2025 15:04:05.386 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Apache NetBeans\jdk
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.1+9
+10-Jul-2025 15:04:05.387 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+10-Jul-2025 15:04:05.388 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\TomCat1109\apache-tomcat-11.0.9
+10-Jul-2025 15:04:05.388 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\TomCat1109\apache-tomcat-11.0.9
+10-Jul-2025 15:04:05.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\TomCat1109\apache-tomcat-11.0.9\conf\logging.properties
+10-Jul-2025 15:04:05.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jul-2025 15:04:05.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|PC49883
+10-Jul-2025 15:04:05.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jul-2025 15:04:05.395 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\TomCat1109\apache-tomcat-11.0.9
+10-Jul-2025 15:04:05.396 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\TomCat1109\apache-tomcat-11.0.9
+10-Jul-2025 15:04:05.397 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\TomCat1109\apache-tomcat-11.0.9\temp
+10-Jul-2025 15:04:05.890 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+10-Jul-2025 15:04:05.897 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+10-Jul-2025 15:04:06.103 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jul-2025 15:04:06.119 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [885] milliseconds
+10-Jul-2025 15:04:06.164 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jul-2025 15:04:06.164 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+10-Jul-2025 15:04:06.172 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [D:\TomCat1109\apache-tomcat-11.0.9\webapps\docs]
+10-Jul-2025 15:04:06.439 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\TomCat1109\apache-tomcat-11.0.9\webapps\docs] has finished in [264] ms
+10-Jul-2025 15:04:06.439 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [D:\TomCat1109\apache-tomcat-11.0.9\webapps\examples]
+10-Jul-2025 15:04:07.136 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\TomCat1109\apache-tomcat-11.0.9\webapps\examples] has finished in [697] ms
+10-Jul-2025 15:04:07.136 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [D:\TomCat1109\apache-tomcat-11.0.9\webapps\host-manager]
+10-Jul-2025 15:04:07.165 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\TomCat1109\apache-tomcat-11.0.9\webapps\host-manager] has finished in [29] ms
+10-Jul-2025 15:04:07.165 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [D:\TomCat1109\apache-tomcat-11.0.9\webapps\manager]
+10-Jul-2025 15:04:07.188 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\TomCat1109\apache-tomcat-11.0.9\webapps\manager] has finished in [22] ms
+10-Jul-2025 15:04:07.188 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [D:\TomCat1109\apache-tomcat-11.0.9\webapps\ROOT]
+10-Jul-2025 15:04:07.206 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\TomCat1109\apache-tomcat-11.0.9\webapps\ROOT] has finished in [17] ms
+10-Jul-2025 15:04:07.208 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jul-2025 15:04:07.227 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [1105] milliseconds
+10-Jul-2025 15:04:13.946 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\TomCat1109\apache-tomcat-11.0.9\conf\Catalina\localhost\test6.xml]
+10-Jul-2025 15:04:13.947 ADVERTÊNCIA [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/test6] in deployment descriptor [D:\TomCat1109\apache-tomcat-11.0.9\conf\Catalina\localhost\test6.xml] has been ignored
+10-Jul-2025 15:04:13.969 INFORMAÇÕES [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\TomCat1109\apache-tomcat-11.0.9\conf\Catalina\localhost\test6.xml] has finished in [22] ms
+10-Jul-2025 15:04:13.972 INFORMAÇÕES [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/test6]] after start() had already been called. The second call will be ignored.
+10-Jul-2025 15:07:13.651 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jul-2025 15:07:13.651 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jul-2025 15:07:13.656 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jul-2025 15:07:13.671 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jul-2025 15:07:13.682 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

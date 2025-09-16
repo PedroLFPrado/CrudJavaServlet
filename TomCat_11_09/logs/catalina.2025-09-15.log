@@ -1,0 +1,728 @@
+15-Sep-2025 20:50:30.156 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.9
+15-Sep-2025 20:50:30.159 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 1 2025 20:39:04 UTC
+15-Sep-2025 20:50:30.159 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.9.0
+15-Sep-2025 20:50:30.159 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+15-Sep-2025 20:50:30.159 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+15-Sep-2025 20:50:30.159 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+15-Sep-2025 20:50:30.160 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Apache NetBeans\jdk
+15-Sep-2025 20:50:30.160 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           24.0.2+12
+15-Sep-2025 20:50:30.160 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+15-Sep-2025 20:50:30.160 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09
+15-Sep-2025 20:50:30.160 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09
+15-Sep-2025 20:50:30.170 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\logging.properties
+15-Sep-2025 20:50:30.170 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Sep-2025 20:50:30.170 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Gustavo
+15-Sep-2025 20:50:30.170 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09
+15-Sep-2025 20:50:30.171 INFORMAÇÕES [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\temp
+15-Sep-2025 20:50:30.260 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+15-Sep-2025 20:50:30.271 INFORMAÇÕES [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+15-Sep-2025 20:50:30.557 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+15-Sep-2025 20:50:30.583 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.load Server initialization in [687] milliseconds
+15-Sep-2025 20:50:30.663 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+15-Sep-2025 20:50:30.663 INFORMAÇÕES [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.9]
+15-Sep-2025 20:50:30.686 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAAluno2.xml]
+15-Sep-2025 20:50:30.707 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JPAAluno2] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAAluno2.xml] has been ignored
+15-Sep-2025 20:50:30.759 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAAluno2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@9816741]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\JPAAluno2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:30.779 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAAluno2.xml] has finished in [88] ms
+15-Sep-2025 20:50:30.780 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2.xml]
+15-Sep-2025 20:50:30.781 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JPAGente2] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2.xml] has been ignored
+15-Sep-2025 20:50:30.793 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4470fbd6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\JPAGente2\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:30.866 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2.xml] has finished in [86] ms
+15-Sep-2025 20:50:30.866 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2R.xml]
+15-Sep-2025 20:50:30.867 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JPAGente2R] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2R.xml] has been ignored
+15-Sep-2025 20:50:30.874 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2R.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@13526e59]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\JPAGente2R\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:30.929 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPAGente2R.xml] has finished in [63] ms
+15-Sep-2025 20:50:30.929 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPATest3.xml]
+15-Sep-2025 20:50:30.930 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JPATest3] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPATest3.xml] has been ignored
+15-Sep-2025 20:50:30.937 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPATest3.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3bcd05cb]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\JPATest3\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:30.990 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JPATest3.xml] has finished in [60] ms
+15-Sep-2025 20:50:30.990 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JSF.xml]
+15-Sep-2025 20:50:30.991 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/JSF] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JSF.xml] has been ignored
+15-Sep-2025 20:50:30.998 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JSF.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@24959ca4]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\JSF\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:31.049 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\JSF.xml] has finished in [59] ms
+15-Sep-2025 20:50:31.050 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\test6.xml]
+15-Sep-2025 20:50:31.051 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/test6] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\test6.xml] has been ignored
+15-Sep-2025 20:50:31.059 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\test6.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@4ee203eb]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\pramp\OneDrive\Documentos\NetBeansProjects\test6\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:31.116 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\test6.xml] has finished in [66] ms
+15-Sep-2025 20:50:31.116 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8JSP.xml]
+15-Sep-2025 20:50:31.118 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TOCC8JSP] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8JSP.xml] has been ignored
+15-Sep-2025 20:50:31.126 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8JSP.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@60db1c0e]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\TOCC8JSP\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:31.183 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8JSP.xml] has finished in [67] ms
+15-Sep-2025 20:50:31.184 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8Servlet.xml]
+15-Sep-2025 20:50:31.185 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/TOCC8Servlet] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8Servlet.xml] has been ignored
+15-Sep-2025 20:50:31.193 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8Servlet.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2438dcd]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\TOCC8Servlet\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:31.242 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\TOCC8Servlet.xml] has finished in [59] ms
+15-Sep-2025 20:50:31.242 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\WebApplication1.xml]
+15-Sep-2025 20:50:31.243 ADVERTÊNCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplication1] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\WebApplication1.xml] has been ignored
+15-Sep-2025 20:50:31.249 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\WebApplication1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:652)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:593)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1831)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:124)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:488)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:379)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1582)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:265)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:389)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:336)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:743)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:769)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1164)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1160)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:148)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:716)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:412)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:866)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:759)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3e2055d6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4127)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 34 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\prampero\Documents\NetBeansProjects\WebApplication1\build\web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 38 more
+15-Sep-2025 20:50:31.300 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\WebApplication1.xml] has finished in [58] ms
+15-Sep-2025 20:50:31.301 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\docs]
+15-Sep-2025 20:50:31.689 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:50:31.755 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\docs] has finished in [453] ms
+15-Sep-2025 20:50:31.755 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\examples]
+15-Sep-2025 20:50:32.229 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:50:32.335 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\examples] has finished in [580] ms
+15-Sep-2025 20:50:32.336 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\host-manager]
+15-Sep-2025 20:50:32.508 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:50:32.516 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\host-manager] has finished in [181] ms
+15-Sep-2025 20:50:32.517 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\manager]
+15-Sep-2025 20:50:32.663 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:50:32.667 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\manager] has finished in [150] ms
+15-Sep-2025 20:50:32.667 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\ROOT]
+15-Sep-2025 20:50:32.811 INFORMAÇÕES [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:50:32.817 INFORMAÇÕES [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\webapps\ROOT] has finished in [149] ms
+15-Sep-2025 20:50:32.821 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+15-Sep-2025 20:50:32.861 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in [2275] milliseconds
+15-Sep-2025 20:50:42.608 INFORMAÇÕES [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml]
+15-Sep-2025 20:50:42.610 ADVERTÊNCIA [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudProduto] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has been ignored
+15-Sep-2025 20:50:43.528 INFORMAÇÕES [http-nio-8081-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:50:43.534 INFORMAÇÕES [http-nio-8081-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has finished in [926] ms
+15-Sep-2025 20:50:43.538 INFORMAÇÕES [http-nio-8081-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CrudProduto]] after start() had already been called. The second call will be ignored.
+15-Sep-2025 20:50:44.969 INFO [http-nio-8081-exec-4] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: TOCC8PU]
+15-Sep-2025 20:50:45.203 INFO [http-nio-8081-exec-4] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.3.0.Final
+15-Sep-2025 20:50:45.327 INFO [http-nio-8081-exec-4] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Sep-2025 20:50:45.791 WARN [http-nio-8081-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+15-Sep-2025 20:50:45.798 INFO [http-nio-8081-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+15-Sep-2025 20:50:45.799 INFO [http-nio-8081-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/TOCC8java]
+15-Sep-2025 20:50:45.799 INFO [http-nio-8081-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+15-Sep-2025 20:50:45.799 INFO [http-nio-8081-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+15-Sep-2025 20:50:45.808 INFO [http-nio-8081-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+15-Sep-2025 20:50:46.151 WARN [http-nio-8081-exec-4] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata HHH000342: Could not obtain connection to query metadata
+	java.lang.IllegalStateException: Cannot get a connection as the driver manager is not properly initialized
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.getConnection(DriverManagerConnectionProviderImpl.java:258)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:387)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:238)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:82)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:43)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:129)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:45)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:135)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:247)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:121)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:43)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:61)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:497)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:363)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:548)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:101)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:81)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:135)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:247)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:354)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:236)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:82)
+		at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:43)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:129)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+		at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223)
+		at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+		at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:169)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1404)
+		at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1475)
+		at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:55)
+		at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:80)
+		at jakarta.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+		at com.mycompany.crudproduto.dao.ProdutoDAO.<clinit>(ProdutoDAO.java:17)
+		at com.mycompany.crudproduto.servlet.ProdutoListServlet.<init>(ProdutoListServlet.java:23)
+		at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+		at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:140)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:756)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:574)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:115)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:79)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:666)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:396)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1773)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:59)
+		at java.base/java.lang.Thread.run(Thread.java:1447)
+15-Sep-2025 20:50:46.256 WARN [http-nio-8081-exec-4] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Sep-2025 20:50:46.295 WARN [http-nio-8081-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 0, SQLState: 3D000
+15-Sep-2025 20:50:46.295 ERROR [http-nio-8081-exec-4] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions FATAL: banco de dados "TOCC8java" n�o existe
+15-Sep-2025 20:53:57.572 ADVERTÊNCIA [http-nio-8081-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CrudProduto] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Sep-2025 20:53:58.083 INFORMAÇÕES [http-nio-8081-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CrudProduto]
+15-Sep-2025 20:53:58.101 INFORMAÇÕES [http-nio-8081-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml]
+15-Sep-2025 20:53:58.102 ADVERTÊNCIA [http-nio-8081-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudProduto] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has been ignored
+15-Sep-2025 20:53:58.804 INFORMAÇÕES [http-nio-8081-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 20:53:58.808 INFORMAÇÕES [http-nio-8081-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has finished in [707] ms
+15-Sep-2025 20:53:58.811 INFORMAÇÕES [http-nio-8081-exec-7] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CrudProduto]] after start() had already been called. The second call will be ignored.
+15-Sep-2025 20:53:59.382 INFO [http-nio-8081-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: TOCC8PU]
+15-Sep-2025 20:53:59.549 INFO [http-nio-8081-exec-2] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.3.0.Final
+15-Sep-2025 20:53:59.653 INFO [http-nio-8081-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Sep-2025 20:54:00.121 WARN [http-nio-8081-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+15-Sep-2025 20:54:00.126 INFO [http-nio-8081-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+15-Sep-2025 20:54:00.126 INFO [http-nio-8081-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/TOCC8java]
+15-Sep-2025 20:54:00.126 INFO [http-nio-8081-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+15-Sep-2025 20:54:00.126 INFO [http-nio-8081-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+15-Sep-2025 20:54:00.133 INFO [http-nio-8081-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+15-Sep-2025 20:54:00.473 WARN [http-nio-8081-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Sep-2025 20:54:02.950 INFO [http-nio-8081-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Sep-2025 20:54:03.002 INFO [http-nio-8081-exec-2] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4de5c466] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15-Sep-2025 21:19:27.252 ADVERTÊNCIA [http-nio-8081-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CrudProduto] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Sep-2025 21:19:27.253 ADVERTÊNCIA [http-nio-8081-exec-15] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CrudProduto] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1802)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1166)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:883)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1021)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1081)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+ java.base/java.lang.Thread.run(Thread.java:1447)
+15-Sep-2025 21:19:27.759 INFORMAÇÕES [http-nio-8081-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CrudProduto]
+15-Sep-2025 21:19:27.779 INFORMAÇÕES [http-nio-8081-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml]
+15-Sep-2025 21:19:27.780 ADVERTÊNCIA [http-nio-8081-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudProduto] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has been ignored
+15-Sep-2025 21:19:28.479 INFORMAÇÕES [http-nio-8081-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 21:19:28.484 INFORMAÇÕES [http-nio-8081-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has finished in [705] ms
+15-Sep-2025 21:19:28.487 INFORMAÇÕES [http-nio-8081-exec-19] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CrudProduto]] after start() had already been called. The second call will be ignored.
+15-Sep-2025 21:19:29.136 INFO [http-nio-8081-exec-20] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: TOCC8PU]
+15-Sep-2025 21:19:29.313 INFO [http-nio-8081-exec-20] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.3.0.Final
+15-Sep-2025 21:19:29.425 INFO [http-nio-8081-exec-20] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Sep-2025 21:19:29.868 WARN [http-nio-8081-exec-20] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+15-Sep-2025 21:19:29.874 INFO [http-nio-8081-exec-20] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+15-Sep-2025 21:19:29.874 INFO [http-nio-8081-exec-20] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/TOCC8java]
+15-Sep-2025 21:19:29.874 INFO [http-nio-8081-exec-20] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+15-Sep-2025 21:19:29.874 INFO [http-nio-8081-exec-20] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+15-Sep-2025 21:19:29.880 INFO [http-nio-8081-exec-20] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+15-Sep-2025 21:19:30.224 WARN [http-nio-8081-exec-20] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Sep-2025 21:19:32.402 INFO [http-nio-8081-exec-20] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Sep-2025 21:19:32.454 INFO [http-nio-8081-exec-20] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3cd406f5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15-Sep-2025 21:27:02.804 ADVERTÊNCIA [http-nio-8081-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CrudProduto] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Sep-2025 21:27:02.804 ADVERTÊNCIA [http-nio-8081-exec-25] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CrudProduto] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1802)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1166)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:883)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1021)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1081)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+ java.base/java.lang.Thread.run(Thread.java:1447)
+15-Sep-2025 21:27:03.307 INFORMAÇÕES [http-nio-8081-exec-25] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/CrudProduto]
+15-Sep-2025 21:27:03.325 INFORMAÇÕES [http-nio-8081-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml]
+15-Sep-2025 21:27:03.328 ADVERTÊNCIA [http-nio-8081-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CrudProduto] in deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has been ignored
+15-Sep-2025 21:27:04.035 INFORMAÇÕES [http-nio-8081-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2025 21:27:04.039 INFORMAÇÕES [http-nio-8081-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\gugac\Documents\GitHub\CrudJavaServlet\TomCat_11_09\conf\Catalina\localhost\CrudProduto.xml] has finished in [714] ms
+15-Sep-2025 21:27:04.042 INFORMAÇÕES [http-nio-8081-exec-23] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CrudProduto]] after start() had already been called. The second call will be ignored.
+15-Sep-2025 21:27:04.603 INFO [http-nio-8081-exec-21] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: TOCC8PU]
+15-Sep-2025 21:27:04.757 INFO [http-nio-8081-exec-21] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.3.0.Final
+15-Sep-2025 21:27:04.880 INFO [http-nio-8081-exec-21] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+15-Sep-2025 21:27:05.367 WARN [http-nio-8081-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+15-Sep-2025 21:27:05.372 INFO [http-nio-8081-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+15-Sep-2025 21:27:05.372 INFO [http-nio-8081-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/TOCC8java]
+15-Sep-2025 21:27:05.372 INFO [http-nio-8081-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001001: Connection properties: {user=postgres, password=****}
+15-Sep-2025 21:27:05.372 INFO [http-nio-8081-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH10001003: Autocommit mode: false
+15-Sep-2025 21:27:05.378 INFO [http-nio-8081-exec-21] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init> HHH10001115: Connection pool size: 20 (min=1)
+15-Sep-2025 21:27:05.838 WARN [http-nio-8081-exec-21] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+15-Sep-2025 21:27:07.957 INFO [http-nio-8081-exec-21] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+15-Sep-2025 21:27:08.004 INFO [http-nio-8081-exec-21] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@46ceb877] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+15-Sep-2025 21:29:01.100 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Sep-2025 21:29:01.100 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+15-Sep-2025 21:29:01.103 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Sep-2025 21:29:01.107 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [CrudProduto] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+15-Sep-2025 21:29:01.108 ADVERTÊNCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [CrudProduto] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1802)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1166)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:883)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1021)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1081)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+ java.base/java.lang.Thread.run(Thread.java:1447)
+15-Sep-2025 21:29:01.122 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+15-Sep-2025 21:29:01.127 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+15-Sep-2025 21:29:01.129 ADVERTÊNCIA [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/JPAGente2]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:258)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:944)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:927)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4679)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:270)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:638)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:833)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:638)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:833)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:542)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:298)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:835)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:798)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)

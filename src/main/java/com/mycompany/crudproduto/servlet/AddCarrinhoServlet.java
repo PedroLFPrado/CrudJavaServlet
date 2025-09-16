@@ -1,14 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 package com.mycompany.crudproduto.servlet;
-
-/**
- *
- * @author Pedro Lemos / Gustavo Henrique
- */
-
 
 import com.mycompany.crudproduto.dao.ProdutoDAO;
 import com.mycompany.crudproduto.model.Produto;
@@ -36,12 +26,13 @@ public class AddCarrinhoServlet extends HttpServlet {
                     carrinho = new ArrayList<>();
                     session.setAttribute("carrinho", carrinho);
                 }
-                // adiciona o produto ao carrinho (cópia leve)
+
+                // cada adição é uma "unidade" do produto
                 Produto copy = new Produto();
                 copy.setCodigo(p.getCodigo());
                 copy.setDescricao(p.getDescricao());
                 copy.setPreco(p.getPreco());
-                copy.setQtde(1); // cada adição é um item
+                copy.setQtde(1); 
                 carrinho.add(copy);
             }
         }

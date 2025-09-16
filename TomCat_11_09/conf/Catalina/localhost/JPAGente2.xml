@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="C:\Users\prampero\Documents\NetBeansProjects\JPAGente2\build\web" path="/JPAGente2">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="20" maxIdle="10" maxWait="-1" name="conexao" password="ifsp" type="javax.sql.DataSource" url="jdbc:postgresql://localhost:5432/WEB2" username="postgres"/>
+</Context>
